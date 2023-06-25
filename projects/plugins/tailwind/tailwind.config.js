@@ -35,6 +35,7 @@ tailwind.config = {
         900: '#111827',
         950: '#030712'
       },
+      white: '#ffffff'
     },
   },
 };
