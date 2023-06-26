@@ -1,6 +1,11 @@
 tailwind.config = {
   darkMode:'class',
   theme: {
+    extend: {
+      dropShadow: {
+        '3xl': '0px 10px 22px 0px rgba(147, 117, 81, 1)',
+      },
+    },
     letterSpacing: {
       currentWide: ".0.005em;",
       current: "0.5px",
@@ -38,4 +43,17 @@ tailwind.config = {
       white: '#ffffff'
     },
   },
+};
+module.exports = {
+  theme: {
+    extend: {
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+        '4xl': [
+            '0 35px 35px rgba(0, 0, 0, 0.25)',
+            '0 45px 65px rgba(0, 0, 0, 0.15)'
+        ]
+      }
+    }
+  }
 };
