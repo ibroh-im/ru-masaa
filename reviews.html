@@ -7,21 +7,380 @@
     <title>Document</title>
     <link rel="stylesheet" href="./projects/plugins/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./projects/plugins/fonts/remixicon.css">
-    <script src="./projects/plugins/tailwind.js"></script>
-    <script src="./projects/plugins/tailwind.config.js"></script>
+    <script src="./projects/plugins/tailwind/tailwind.js"></script>
+    <script src="./projects/plugins/tailwind/tailwind.config.js"></script>
 </head>
 <body>
     <!-- Umar's page -->
-    <div class="container flex items-center gap-x-[7px] mb-[35px]">
+    <div class="container flex items-center gap-x-[7px] mb-[35px] mt-20 md:mt-[120px]">
         <a href="index_3.html" class="text-xs text-[#494949]">Главная</a>
         <span class="flex items-center"><i class="ri-arrow-drop-right-line text-xl"></i></span>
         <a href="" class="text-xs font-semibold text-[#3D3D3D]">Отзывы</a>
     </div>
-    <section>
-        <div class="container">
-            <h2 class="text-[70px] text-[#1C1C1C] uppercase font-[]">Отзывы</h2>
+    <h2 class="text-3xl md:text-[70px] text-[#1C1C1C] uppercase mb-[34px] container">Отзывы</h2>
+    <section class="bg-[#F8F8F8]">
+        <div class="container py-[38px]">
+            <div class="flex sm:flex-row flex-col gap-5">
+                <div class="sm:w-[49%]">
+                    <p class="mb-[26px] text-[#1C1C1C] text-2xl uppercase">Оставьте отзыв</p>
+                    <form action="" class="block">
+                        <label for="name" class="mb-[13px] block font-medium">Ваше имя*</label>
+                        <input type="text" name="name" id="name" placeholder="Ваше имя" class="border border-[#D8D8D8] py-[18px] w-full px-[15px] mb-6" required>
+                        <label for="email" class="mb-[13px] block font-medium">Ваш e-mail*</label>
+                        <input type="email" name="email" id="email" placeholder="Ваш e-mail" class="border border-[#D8D8D8] py-[18px] w-full px-[15px] mb-6" required>
+                        <label for="review" class="mb-[13px] block font-medium">Отзыв*</label>
+                        <textarea name="review" id="review" cols="30" rows="10" placeholder="Оставьте отзыв" class="border border-[#D8D8D8] py-[18px] w-full px-[15px] mb-5"></textarea>
+                        <input type="file" class="bg-transparent py-[14px] w-[210px] text-center block mb-5">
+                        <a href="#" type="button" class="py-3 w-[210px] bg-[#BB9B75] cursor-pointer text-center text-white text-bold">Добавить отзыв</a>
+                    </form>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:w-[50%]">
+                    <div class="border border-[#D8D8D8] p-5 flex flex-col justify-between">
+                        <div class="flex items-center gap-x-2 mb-[15px]">
+                            <div class="w-[50px] lg:w-[73px] h-[50px] lg:h-[73px] shrink-0">
+                                <img src="./projects/Image/01f618c47d95e5c934e268da9abdb2c2 1.png" alt="" class="w-full h-full rounded-full">
+                            </div>
+                            <p class="text-2xl text-bold text-[#2F2F2F]">Кирилл</p>
+                        </div>
+                        <p class="text-[#565656] text-[sm] mb-20">Заказывал 8 мая, сегодня забрал с почты посылку 20 мая. Всё в наличии, всё целое. Спасибо за работу. Александр .С. 40 лет.</p>
+                        <div class="flex items-center justify-end w-full p-5 border-t border-t-[#D8D8D8]">
+                            <div class="bg-[#DD5559] rounded-full w-[38px] h-[38px]">
+                                <a href="#">
+                                    <img src="./projects/Image/facebook (2).png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-[#D8D8D8] p-5 flex flex-col justify-between">
+                        <div class="flex items-center gap-x-2 mb-[15px]">
+                            <div class="w-[50px] lg:w-[73px] h-[50px] lg:h-[73px] shrink-0">
+                                <img src="./projects/Image/3e4d214c57a15823622b44083fd6c05b 1.png" alt="" class="w-full h-full rounded-full">
+                            </div>
+                            <p class="text-2xl text-bold text-[#2F2F2F]">Кирилл</p>
+                        </div>
+                        <p class="text-[#565656] text-[sm] mb-3">Доброго времени суток. Заказывал тут раза три точно ,до этого брал у паркеров. Цены адекватные, доставка отличная ,не помню что бы как то приходилось ждать дольше обычного ,в среднем неделя. Но еще не забывайте есть почта РФ а это тема отдельная к магазину не относящаяся но влияющая на сроки).</p>
+                        <div class="flex items-center justify-end w-full p-5 border-t border-[#D8D8D8]">
+                            <div class="bg-[#DD5559] rounded-full w-[38px] h-[38px]">
+                                <a href="#">
+                                    <img src="./projects/Image/facebook (2).png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-[#D8D8D8] p-5 flex flex-col justify-between">
+                        <div class="flex items-center gap-x-2 mb-[15px]">
+                            <div class="w-[50px] lg:w-[73px] h-[50px] lg:h-[73px] shrink-0">
+                                <img src="./projects/Image/de9c29535877caa4d42c50c7eb266240 1.png" alt="" class="w-full h-full rounded-full">
+                            </div>
+                            <p class="text-2xl text-bold text-[#2F2F2F]">Кирилл</p>
+                        </div>
+                        <p class="text-[#565656] text-[sm] mb-[10px]">Приветствую, уважаемые. В очередной раз заказ пришел четко и в самые кратчайшие сроки, за шесть дней в ЮФО. Огромная благодарность парням за такую слаженную работу!</p>
+                        <div class="flex items-center justify-end w-full p-5 border-t border-[#D8D8D8]">
+                            <div class="bg-[#DD5559] rounded-full w-[38px] h-[38px]">
+                                <a href="#">
+                                    <img src="./projects/Image/facebook (2).png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-[#D8D8D8] p-5 flex flex-col justify-between">
+                        <div class="flex items-center gap-x-2 mb-[15px]">
+                            <div class="w-[50px] lg:w-[73px] h-[50px] lg:h-[73px] shrink-0">
+                                <img src="./projects/Image/ff53c1a4c238b6e6a541ef832aaaa089 1.png" alt="" class="w-full h-full rounded-full">
+                            </div>
+                            <p class="text-2xl text-bold text-[#2F2F2F]">Кирилл</p>
+                        </div>
+                        <p class="text-[#565656] text-[sm] mb-8">День добрый Спасибо магазину. Всё пришло вовремя и качественное. Заказывал здесь впервые. Буду сотрудничать и дальше. Рекомендую всем.</p>
+                        <div class="flex items-center justify-end w-full p-5 border-t border-[#D8D8D8]">
+                            <div class="bg-[#DD5559] rounded-full w-[38px] h-[38px]">
+                                <a href="#">
+                                    <img src="./projects/Image/facebook (2).png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-[#D8D8D8] p-5 flex flex-col justify-between">
+                        <div class="flex items-center gap-x-2 mb-[15px]">
+                            <div class="w-[50px] lg:w-[73px] h-[50px] lg:h-[73px] shrink-0">
+                                <img src="./projects/Image/01f618c47d95e5c934e268da9abdb2c2 1.png" alt="" class="w-full h-full rounded-full">
+                            </div>
+                            <p class="text-2xl text-bold text-[#2F2F2F]">Кирилл</p>
+                        </div>
+                        <p class="text-[#565656] text-[sm] mb-[17px]">Приветствую, уважаемые. Парни просто красавцы! Все на высшем уровне, как всегда. Заказ опять долетел за 5 дней! Только уважение и благодарность за такую работу. Однозначно теперь выбор именно за этот магазин.</p>
+                        <div class="flex items-center justify-end w-full p-5 border-t border-[#D8D8D8]">
+                            <div class="bg-[#DD5559] rounded-full w-[38px] h-[38px]">
+                                <a href="#">
+                                    <img src="./projects/Image/facebook (2).png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-[#D8D8D8] p-5 flex flex-col justify-between">
+                        <div class="flex items-center gap-x-2 mb-[15px]">
+                            <div class="w-[50px] lg:w-[73px] h-[50px] lg:h-[73px] shrink-0">
+                                <img src="./projects/Image/3e4d214c57a15823622b44083fd6c05b 1.png" alt="" class="w-full h-full rounded-full">
+                            </div>
+                            <p class="text-2xl text-bold text-[#2F2F2F]">Кирилл</p>
+                        </div>
+                        <p class="text-[#565656] text-[sm] mb-[65px]">Здравствуйте. Заказ делал первый раз. Все пришло быстро и качественно. Спасибо ребятам.</p>
+                        <div class="flex items-center justify-end w-full p-5 border-t border-[#D8D8D8]">
+                            <div class="bg-[#DD5559] rounded-full w-[38px] h-[38px]">
+                                <a href="#">
+                                    <img src="./projects/Image/facebook (2).png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <footer class="border-t border-[#DFDFDF] pt-5 ">
+        <div class="container mx-auto px-[5%] lg:px-[100px] ">
+            <div class="hidden sm:block">
+                <div class=" grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 text-left	">
+                    <div class="  text-[#303030] px-2 rounded-lg ">
+                        <div class="flex ">
+                            <img class="h-12" src="./projects/Image/лого2 1.png" alt="">
+                            <div class="pl-1 mb-3" >
+                                <p>Интернет-магазин <br> <span class="text-[22px]">RU-massa</span></p> 
+                            </div>
+                        </div>
+                        <p class="text-[14px]  leading-[27px]">
+                           Магазин спортивной фармакологии 
+                           c доставкой из России в Москву, 
+                           Санкт-Питербург и другие города. 
+                           Так же доставляем в любую точку мира.
+                    </p>
+                    </div>
+                    <div class=" col-2 text-[#303030] pl-8 rounded-lg">
+                        <h3 class="font-medium text-[20px]">Категории</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оральные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Инъекционные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Препараты ПКТ </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Гормоны роста  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Сармы/Sarms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-2 text-[#303030] pl-2 rounded-lg">
+                        <h3 class="font-medium text-[20px]">Как оформить заказ</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оплата </a>
+                                </li>
+                                <li>
+                                    <a href="#">Доставка </a>
+                                </li>
+                                <li>
+                                    <a href="#">Обмен и возрат </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Отзывы   </a>
+                                </li>
+                                <li>
+                                    <a href="#">Скидки </a>
+                                </li>
+                                <li>
+                                    <a href="#">Новости  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты </a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                    <div class=" col-2 text-[#303030] pl-8 rounded-lg">
+                        <h3 class="font-medium text-[20px]">Новости</h3> 
+                        <div class="text-[14px]">
+                            <ul>
+                                <li class="mt-3">
+                                    <a href="#">Смена домена, <br>
+                                        новый адрес <span class="font-medium">ru-massa.info</span></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-2 text-[#303030]  rounded-lg">
+                        <h3 class="font-medium text-[20px]">Как оформить заказ</h3> 
+                        <div class="leading-[35px] text-[13px]">
+                            <ul>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-phone-line"></i></p>
+                                    <a href="#">7 (567) 439-82-34 </a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-mail-line"></i></p>
+                                    <a href="email: rumassa13@gmail.com">E-mail: <span class="font-medium">rumassa13@gmail.com</span></a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email: rumassa13@gmail.com"><span class="font-medium" >@Rumassa_bot </span>  для заказа</a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <div>
+                                        <a href="email: rumassa13@gmail.com"> Telegram <span class="font-medium" >@consultant_rumassa</a> <br>
+                                         <p>   (составление курсов и т.д.)</p>
+                                    </div>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email:@Rumassa">Telegram: <span class="font-medium"> @Rumassa</span></a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email: rumassa13@gmail.com"> <span class="font-medium">Новости в телеграм</span></a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email: rumassa13@gmail.com"><span class="font-medium">Чат в телеграм</span></a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="sm:hidden">
+                <div class="  text-[#303030] px-2 rounded-lg ">
+                    <div class="flex">
+                        <img class="h-12" src="./projects/Image/лого2 1.png" alt="">
+                        <div class="pl-4" >
+                            <p>Интернет-магазин <br> <span class="text-[22px]">RU-massa</span></p> 
+                        </div>
+                    </div>
+                    <p class="text-[14px] leading-[27px]">
+                       Магазин спортивной фармакологии 
+                       c доставкой из России в Москву, 
+                       Санкт-Питербург и другие города. 
+                       Так же доставляем в любую точку мира.
+                </p>
+                </div>
+                <div class="flex my-4 ">
+                    <div class=" col-2 text-[#303030] sm:pl-8 rounded-lg">
+                        <h3 class="font-medium text-[16px] sm:text-[20px]">Категории</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оральные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Инъекционные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Препараты ПКТ </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Гормоны роста  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Сармы/Sarms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" ml-2 text-[#303030] sm:pl-2 rounded-lg">
+                        <h3 class="font-medium text-[16px] sm:text-[20px]">Как оформить заказ</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оплата </a>
+                                </li>
+                                <li>
+                                    <a href="#">Доставка </a>
+                                </li>
+                                <li>
+                                    <a href="#">Обмен и возрат </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Отзывы   </a>
+                                </li>
+                                <li>
+                                    <a href="#">Скидки </a>
+                                </li>
+                                <li>
+                                    <a href="#">Новости  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты </a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+                <div class="mb-4 col-2 text-[#303030] pl-2 sm:pl-8 rounded-lg">
+                    <h3 class="font-medium text-[20px]">Новости</h3> 
+                    <div class="text-[14px]">
+                        <ul>
+                            <li class="mt-3">
+                                <a href="#">Смена домена, <br>
+                                    новый адрес <span class="font-medium">ru-massa.info</span></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-2 text-[#303030] pl-2 sm:pl-6 rounded-lg">
+                    <h3 class="font-medium text-[20px]">Как оформить заказ</h3> 
+                    <div class="leading-[35px]  text-[13px]">
+                        <ul>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-phone-line"></i></p>
+                                <a href="#">7 (567) 439-82-34 </a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-mail-line"></i></p>
+                                <a href="email: rumassa13@gmail.com">E-mail: <span class="font-medium">rumassa13@gmail.com</span></a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email: rumassa13@gmail.com"><span class="font-medium" >@Rumassa_bot </span>  для заказа</a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <div>
+                                    <a href="email: rumassa13@gmail.com"> Telegram <span class="font-medium" >@consultant_rumassa</a> <br>
+                                     <p>   (составление курсов и т.д.)</p>
+                                </div>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email:@Rumassa">Telegram: <span class="font-medium"> @Rumassa</span></a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email: rumassa13@gmail.com"> <span class="font-medium">Новости в телеграм</span></a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email: rumassa13@gmail.com"><span class="font-medium">Чат в телеграм</span></a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div><hr class="my-5 text-[#DFDFDF]">
+        <div class="container mx-auto px-[5%] lg:px-[100px] ">
+            <div class="sm:flex text-center justify-between ">
+                <p>ⓒ copywriting 2022</p>
+                <p>Политика конфиденциальности</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <script src="./projects/plugins/swiper/swiper-bundle.min.js"></script>
