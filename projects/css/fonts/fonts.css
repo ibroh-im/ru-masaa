@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Gothic-Black';
+  src: url(../../fonts/Gothic-A1/GothicA1-Black.ttf);
+}
+@font-face {
+  font-family: 'Gothic-Extrabold';
+  src: url(../../fonts/Gothic-A1/GothicA1-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'Gothic-Bold';
+  src: url(../../fonts/Gothic-A1/GothicA1-Bold.ttf);
+}
+@font-face {
+  font-family: 'Gothic-Semibold';
+  src: url(../../fonts/Gothic-A1/GothicA1-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Gothic-Medium';
+  src: url(../../fonts/Gothic-A1/GothicA1-Medium.ttf);
+}
+@font-face {
+  font-family: 'Gothic';
+  src: url(../../fonts/Gothic-A1/GothicA1-Regular.ttf);
+}
+@font-face {
+  font-family: 'Gothic-Thin';
+  src: url(../../fonts/Gothic-A1/GothicA1-Thin.ttf);
+}
