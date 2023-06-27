@@ -5,13 +5,360 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./projects/css/main.css">
     <link rel="stylesheet" href="./projects/plugins/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./projects/fonts/remixicon.css">
-    <script src="./projects/plugins/tailwind.js"></script>
-    <script src="./projects/plugins/tailwind.config.js"></script>
+    <link rel="stylesheet" href="./projects/icons/remixicon.css">
+    <script src="./projects/plugins/tailwind/tailwind.js"></script>
+    <script src="./projects/plugins/tailwind/tailwind.config.js"></script>
 </head>
 <body>
     <!-- shohrux's page -->
+    <div class="wrapper">
+        <header class="pt-[64px] pb-[34px] md:pt-[155px] md:pb-[100px] overflow-x-hidden"> 
+            <div class="container flex flex-col items-start">
+                <div class="flex flex-wrap items-center gap-[6px]"> 
+                    <a href="./index_3.html" class="text-[12px] text-[#494949]">Главная</a>
+                    <p class="text-[#9B9B9B]  "><i class="ri-arrow-drop-right-line"></i></p>
+                    <a href="#" class="font-semibold text-[12px] text-[#3D3D3D]">Доставка</a>    
+                </div>
+                <h1 class="pt-7  text-center text-[#1C1C1C] text-[32px] leading-[42px] font-semibold md:text-[48px] md:leading-[56px] xl:text-[70px] leading-[70px]  md:pt-[35px] md:pb-[29px]">Доставка</h1>
+                <p class="text-[#474747] pb-3 leading-[30px] md:pb-5 md:text-xl">Заказы отправляем почтой России:</p>
+                <div class="p-[15px] bg-[#F8F8F8] md:p-7 xl:p-[37px] w-full flex items-center justify-center relative">
+                    <div class="border border-[#D8D8D8] w-full p-[15px] md:p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-3 ">
+                        <div class="flex flex-col pb-[15px] xl:pb-0 xl:pr-[11px] border-b border-[#D8D8D8] xl:border-b-0 xl:border-r ">
+                            <div class="flex gap-[6px] md:gap-[10px]">
+                                <div class="w-[29px] h-[29px] flex items-center justify-center bg-white">
+                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="29" height="29" fill="white"/>
+                                        <g clip-path="url(#clip0_154_6381)">
+                                        <path d="M22.3533 9.92743L14.8464 6.12378L14.8433 6.12222C14.509 5.95581 14.1119 5.95953 13.7807 6.13218L10.561 7.84095C10.5349 7.85204 10.5097 7.86549 10.4857 7.88096L6.62741 9.92866C6.24039 10.1313 6 10.5283 6 10.9653V18.0336C6 18.4706 6.24039 18.8676 6.62741 19.0703L13.7775 22.8651L13.7808 22.8668C13.9496 22.9549 14.1357 22.999 14.3219 22.999C14.5007 22.999 14.6795 22.9583 14.8433 22.8768L22.3533 19.0715C22.7522 18.872 23 18.4712 23 18.025V10.974C23 10.5278 22.7522 10.1269 22.3533 9.92743ZM14.2422 7.01449C14.291 6.98946 14.3493 6.98896 14.3985 7.0131L21.4252 10.5735L18.6905 11.935L11.8208 8.29965L14.2422 7.01449ZM13.8168 21.7587L7.09271 18.1899L7.08949 18.1882C7.03169 18.1581 6.99573 18.0989 6.99573 18.0336V11.4146L13.8168 14.9715V21.7587ZM14.3199 14.1109L7.53637 10.5736L10.7579 8.86384L17.5936 12.4811L14.3199 14.1109ZM22.0042 18.0249C22.0042 18.0916 21.9672 18.1514 21.9076 18.1811L14.8126 21.776V14.9779L18.0793 13.3515V15.0567C18.0793 15.3316 18.3022 15.5546 18.5772 15.5546C18.8521 15.5546 19.0751 15.3316 19.0751 15.0567V12.8558L22.0042 11.3975V18.0249Z" fill="#343434"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_154_6381">
+                                        <rect width="17" height="17" fill="white" transform="translate(6 6)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#494949] leadinng-6 text-[13px] md:text-base pb-1  ">Посылка  5-14 дней с момента отправки в зависимости от региона, обычно не более 10 дней.</p>
+                                    <div class="flex gap-2 items-center pb-1 ">
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.204479 7.51923C0.0432272 7.57862 -0.039889 7.75736 0.0188519 7.91923L0.215114 8.45923L1.70948 6.96484L0.204479 7.51923Z" fill="#CECECE"/>
+                                            <path d="M1.61719 12.3203L2.5172 14.7953C2.54532 14.8735 2.60406 14.9372 2.67906 14.9716C2.72093 14.991 2.76593 15.001 2.81093 15.001C2.84782 15.001 2.88406 14.9947 2.91907 14.9816L3.91221 14.6154L1.61719 12.3203Z" fill="#CECECE"/>
+                                            <path d="M14.98 10.2069L13.95 7.375L11.4781 9.84689L12.7031 9.39563C12.8637 9.33437 13.045 9.41813 13.1043 9.58064C13.1643 9.74251 13.0812 9.92251 12.9193 9.98189L11.3631 10.5556C11.3274 10.5688 11.2912 10.575 11.2549 10.575C11.128 10.575 11.008 10.4969 10.9618 10.3706C10.9612 10.3688 10.9618 10.3669 10.9612 10.365L8.3418 12.9844L14.7944 10.6069C14.9562 10.5475 15.0393 10.3688 14.98 10.2069Z" fill="#CECECE"/>
+                                            <path d="M14.9085 5.09147L9.9084 0.0914072C9.78652 -0.0304691 9.58838 -0.0304691 9.46651 0.0914072L0.0914072 9.46651C-0.0304691 9.58838 -0.0304691 9.78652 0.0914072 9.9084L5.09147 14.9085C5.15209 14.9697 5.2321 15.0003 5.31211 15.0003C5.39212 15.0003 5.4721 14.9697 5.53336 14.9091L14.9085 5.53398C15.0303 5.41148 15.0303 5.21396 14.9085 5.09147ZM3.65834 8.65902L2.40832 9.90901C2.34706 9.96963 2.26708 10.0003 2.18706 10.0003C2.10705 10.0003 2.02707 9.96966 1.96581 9.90901C1.84394 9.78714 1.84394 9.589 1.96581 9.46712L3.21584 8.2171C3.33771 8.09522 3.53585 8.09522 3.65773 8.2171C3.7796 8.33901 3.78022 8.5365 3.65834 8.65902ZM9.05526 9.05588C8.83401 9.27713 8.53339 9.38339 8.19899 9.38339C7.64648 9.38339 7.00086 9.09402 6.46085 8.55337C6.06584 8.15836 5.78833 7.68585 5.68023 7.22337C5.56023 6.70774 5.65899 6.25899 5.95835 5.95899C6.25773 5.65899 6.70648 5.56023 7.22272 5.68087C7.68524 5.78901 8.15774 6.06587 8.55273 6.4615C9.42089 7.32899 9.64214 8.469 9.05526 9.05588ZM13.0334 5.53398L11.7834 6.784C11.7222 6.84461 11.6422 6.87526 11.5622 6.87526C11.4822 6.87526 11.4022 6.84464 11.3409 6.784C11.219 6.66212 11.219 6.46399 11.3409 6.34211L12.5909 5.09209C12.7128 4.97021 12.911 4.97021 13.0328 5.09209C13.1547 5.21396 13.1553 5.41148 13.0334 5.53398Z" fill="#CECECE"/>
+                                        </svg>
+                                        <b class="text-[#494949]">Цена сейчас 650 руб.</b>
+                                    </div>
+                                    <p class="text-[#494949] leadinng-6 text-[13px] md:text-base   ">(на заказы меньше 1500 рублей идет надбавка за доставку в размере 200 руб.)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col pb-[15px] xl:pb-0 xl:pr-[11px] border-b border-[#D8D8D8] xl:border-b-0 xl:border-r ">
+                            <div class="flex gap-[6px] md:gap-[10px]">
+                                <div class="w-[29px] h-[29px] flex items-center justify-center bg-white">
+                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="29" height="29" fill="white"/>
+                                        <g clip-path="url(#clip0_154_6381)">
+                                        <path d="M22.3533 9.92743L14.8464 6.12378L14.8433 6.12222C14.509 5.95581 14.1119 5.95953 13.7807 6.13218L10.561 7.84095C10.5349 7.85204 10.5097 7.86549 10.4857 7.88096L6.62741 9.92866C6.24039 10.1313 6 10.5283 6 10.9653V18.0336C6 18.4706 6.24039 18.8676 6.62741 19.0703L13.7775 22.8651L13.7808 22.8668C13.9496 22.9549 14.1357 22.999 14.3219 22.999C14.5007 22.999 14.6795 22.9583 14.8433 22.8768L22.3533 19.0715C22.7522 18.872 23 18.4712 23 18.025V10.974C23 10.5278 22.7522 10.1269 22.3533 9.92743ZM14.2422 7.01449C14.291 6.98946 14.3493 6.98896 14.3985 7.0131L21.4252 10.5735L18.6905 11.935L11.8208 8.29965L14.2422 7.01449ZM13.8168 21.7587L7.09271 18.1899L7.08949 18.1882C7.03169 18.1581 6.99573 18.0989 6.99573 18.0336V11.4146L13.8168 14.9715V21.7587ZM14.3199 14.1109L7.53637 10.5736L10.7579 8.86384L17.5936 12.4811L14.3199 14.1109ZM22.0042 18.0249C22.0042 18.0916 21.9672 18.1514 21.9076 18.1811L14.8126 21.776V14.9779L18.0793 13.3515V15.0567C18.0793 15.3316 18.3022 15.5546 18.5772 15.5546C18.8521 15.5546 19.0751 15.3316 19.0751 15.0567V12.8558L22.0042 11.3975V18.0249Z" fill="#343434"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_154_6381">
+                                        <rect width="17" height="17" fill="white" transform="translate(6 6)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#494949] leadinng-6 text-[13px] md:text-base pb-1  ">ЕМС ускоренная (можно до двери), сроки 2-7 дней с момента отправки.</p>
+                                    <div class="flex gap-2 items-center pb-1 ">
+                                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.204479 7.51923C0.0432272 7.57862 -0.039889 7.75736 0.0188519 7.91923L0.215114 8.45923L1.70948 6.96484L0.204479 7.51923Z" fill="#CECECE"/>
+                                            <path d="M1.61719 12.3203L2.5172 14.7953C2.54532 14.8735 2.60406 14.9372 2.67906 14.9716C2.72093 14.991 2.76593 15.001 2.81093 15.001C2.84782 15.001 2.88406 14.9947 2.91907 14.9816L3.91221 14.6154L1.61719 12.3203Z" fill="#CECECE"/>
+                                            <path d="M14.98 10.2069L13.95 7.375L11.4781 9.84689L12.7031 9.39563C12.8637 9.33437 13.045 9.41813 13.1043 9.58064C13.1643 9.74251 13.0812 9.92251 12.9193 9.98189L11.3631 10.5556C11.3274 10.5688 11.2912 10.575 11.2549 10.575C11.128 10.575 11.008 10.4969 10.9618 10.3706C10.9612 10.3688 10.9618 10.3669 10.9612 10.365L8.3418 12.9844L14.7944 10.6069C14.9562 10.5475 15.0393 10.3688 14.98 10.2069Z" fill="#CECECE"/>
+                                            <path d="M14.9085 5.09147L9.9084 0.0914072C9.78652 -0.0304691 9.58838 -0.0304691 9.46651 0.0914072L0.0914072 9.46651C-0.0304691 9.58838 -0.0304691 9.78652 0.0914072 9.9084L5.09147 14.9085C5.15209 14.9697 5.2321 15.0003 5.31211 15.0003C5.39212 15.0003 5.4721 14.9697 5.53336 14.9091L14.9085 5.53398C15.0303 5.41148 15.0303 5.21396 14.9085 5.09147ZM3.65834 8.65902L2.40832 9.90901C2.34706 9.96963 2.26708 10.0003 2.18706 10.0003C2.10705 10.0003 2.02707 9.96966 1.96581 9.90901C1.84394 9.78714 1.84394 9.589 1.96581 9.46712L3.21584 8.2171C3.33771 8.09522 3.53585 8.09522 3.65773 8.2171C3.7796 8.33901 3.78022 8.5365 3.65834 8.65902ZM9.05526 9.05588C8.83401 9.27713 8.53339 9.38339 8.19899 9.38339C7.64648 9.38339 7.00086 9.09402 6.46085 8.55337C6.06584 8.15836 5.78833 7.68585 5.68023 7.22337C5.56023 6.70774 5.65899 6.25899 5.95835 5.95899C6.25773 5.65899 6.70648 5.56023 7.22272 5.68087C7.68524 5.78901 8.15774 6.06587 8.55273 6.4615C9.42089 7.32899 9.64214 8.469 9.05526 9.05588ZM13.0334 5.53398L11.7834 6.784C11.7222 6.84461 11.6422 6.87526 11.5622 6.87526C11.4822 6.87526 11.4022 6.84464 11.3409 6.784C11.219 6.66212 11.219 6.46399 11.3409 6.34211L12.5909 5.09209C12.7128 4.97021 12.911 4.97021 13.0328 5.09209C13.1547 5.21396 13.1553 5.41148 13.0334 5.53398Z" fill="#CECECE"/>
+                                        </svg>
+                                        <b class="text-[#494949]">Цена сейчас 650 руб.</b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col ">
+                            <div class="flex gap-[6px] md:gap-[10px]">
+                                <div class="w-[29px] h-[29px] flex items-center justify-center bg-white">
+                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="29" height="29" fill="white"/>
+                                        <g clip-path="url(#clip0_154_6381)">
+                                        <path d="M22.3533 9.92743L14.8464 6.12378L14.8433 6.12222C14.509 5.95581 14.1119 5.95953 13.7807 6.13218L10.561 7.84095C10.5349 7.85204 10.5097 7.86549 10.4857 7.88096L6.62741 9.92866C6.24039 10.1313 6 10.5283 6 10.9653V18.0336C6 18.4706 6.24039 18.8676 6.62741 19.0703L13.7775 22.8651L13.7808 22.8668C13.9496 22.9549 14.1357 22.999 14.3219 22.999C14.5007 22.999 14.6795 22.9583 14.8433 22.8768L22.3533 19.0715C22.7522 18.872 23 18.4712 23 18.025V10.974C23 10.5278 22.7522 10.1269 22.3533 9.92743ZM14.2422 7.01449C14.291 6.98946 14.3493 6.98896 14.3985 7.0131L21.4252 10.5735L18.6905 11.935L11.8208 8.29965L14.2422 7.01449ZM13.8168 21.7587L7.09271 18.1899L7.08949 18.1882C7.03169 18.1581 6.99573 18.0989 6.99573 18.0336V11.4146L13.8168 14.9715V21.7587ZM14.3199 14.1109L7.53637 10.5736L10.7579 8.86384L17.5936 12.4811L14.3199 14.1109ZM22.0042 18.0249C22.0042 18.0916 21.9672 18.1514 21.9076 18.1811L14.8126 21.776V14.9779L18.0793 13.3515V15.0567C18.0793 15.3316 18.3022 15.5546 18.5772 15.5546C18.8521 15.5546 19.0751 15.3316 19.0751 15.0567V12.8558L22.0042 11.3975V18.0249Z" fill="#343434"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_154_6381">
+                                        <rect width="17" height="17" fill="white" transform="translate(6 6)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#494949] leadinng-6 text-[13px] md:text-base pb-1  ">Отправка заказа происходит в течении 1-9 дней с момента оплаты.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./projects/Image/cut img.png" alt="" class="absolute w-[340px] h-[125px] right-[-140px] top-[-30px] z-[-1] hidden md:block">
+                </div>
+            </div>
+        </header>
+        <!-- footer start  -->
+        <footer class="border-t pt-5 ">
+        <div class="container mx-auto px-[5%] lg:px-[100px] ">
+            <div class="hidden sm:block">
+                <div class=" grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 text-left	">
+                    <div class="  text-[#303030] px-2 rounded-lg ">
+                        <div class="flex ">
+                            <img class="h-12" src="./projects/Image/лого2 1.png" alt="">
+                            <div class="pl-1 mb-3" >
+                                <p>Интернет-магазин <br> <span class="text-[22px]">RU-massa</span></p> 
+                            </div>
+                        </div>
+                        <p class="text-[14px]  leading-[27px]">
+                           Магазин спортивной фармакологии 
+                           c доставкой из России в Москву, 
+                           Санкт-Питербург и другие города. 
+                           Так же доставляем в любую точку мира.
+                    </p>
+                    </div>
+                    <div class=" col-2 text-[#303030] pl-8 rounded-lg">
+                        <h3 class="font-medium text-[20px]">Категории</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оральные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Инъекционные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Препараты ПКТ </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Гормоны роста  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Сармы/Sarms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-2 text-[#303030] pl-2 rounded-lg">
+                        <h3 class="font-medium text-[20px]">Как оформить заказ</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оплата </a>
+                                </li>
+                                <li>
+                                    <a href="#">Доставка </a>
+                                </li>
+                                <li>
+                                    <a href="#">Обмен и возрат </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Отзывы   </a>
+                                </li>
+                                <li>
+                                    <a href="#">Скидки </a>
+                                </li>
+                                <li>
+                                    <a href="#">Новости  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты </a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                    <div class=" col-2 text-[#303030] pl-8 rounded-lg">
+                        <h3 class="font-medium text-[20px]">Новости</h3> 
+                        <div class="text-[14px]">
+                            <ul>
+                                <li class="mt-3">
+                                    <a href="#">Смена домена, <br>
+                                        новый адрес <span class="font-medium">ru-massa.info</span></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-2 text-[#303030]  rounded-lg">
+                        <h3 class="font-medium text-[20px]">Как оформить заказ</h3> 
+                        <div class="leading-[35px] text-[13px]">
+                            <ul>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-phone-line"></i></p>
+                                    <a href="#">7 (567) 439-82-34 </a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-mail-line"></i></p>
+                                    <a href="email: rumassa13@gmail.com">E-mail: <span class="font-medium">rumassa13@gmail.com</span></a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email: rumassa13@gmail.com"><span class="font-medium" >@Rumassa_bot </span>  для заказа</a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <div>
+                                        <a href="email: rumassa13@gmail.com"> Telegram <span class="font-medium" >@consultant_rumassa</a> <br>
+                                         <p>   (составление курсов и т.д.)</p>
+                                    </div>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email:@Rumassa">Telegram: <span class="font-medium"> @Rumassa</span></a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email: rumassa13@gmail.com"> <span class="font-medium">Новости в телеграм</span></a>
+                                </li>
+                                <li class="flex ">
+                                    <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                    <a href="email: rumassa13@gmail.com"><span class="font-medium">Чат в телеграм</span></a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="sm:hidden">
+                <div class="  text-[#303030] px-2 rounded-lg ">
+                    <div class="flex">
+                        <img class="h-12" src="./projects/Image/лого2 1.png" alt="">
+                        <div class="pl-4" >
+                            <p>Интернет-магазин <br> <span class="text-[22px]">RU-massa</span></p> 
+                        </div>
+                    </div>
+                    <p class="text-[14px] leading-[27px]">
+                       Магазин спортивной фармакологии 
+                       c доставкой из России в Москву, 
+                       Санкт-Питербург и другие города. 
+                       Так же доставляем в любую точку мира.
+                </p>
+                </div>
+                <div class="flex my-4 ">
+                    <div class=" col-2 text-[#303030] sm:pl-8 rounded-lg">
+                        <h3 class="font-medium text-[16px] sm:text-[20px]">Категории</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оральные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Инъекционные препараты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Препараты ПКТ </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Гормоны роста  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Сармы/Sarms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" ml-2 text-[#303030] sm:pl-2 rounded-lg">
+                        <h3 class="font-medium text-[16px] sm:text-[20px]">Как оформить заказ</h3> 
+                        <div class="leading-[40px] text-[14px]">
+                            <ul>
+                                <li>
+                                    <a href="#">Оплата </a>
+                                </li>
+                                <li>
+                                    <a href="#">Доставка </a>
+                                </li>
+                                <li>
+                                    <a href="#">Обмен и возрат </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Отзывы   </a>
+                                </li>
+                                <li>
+                                    <a href="#">Скидки </a>
+                                </li>
+                                <li>
+                                    <a href="#">Новости  </a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты </a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+                <div class="mb-4 col-2 text-[#303030] pl-2 sm:pl-8 rounded-lg">
+                    <h3 class="font-medium text-[20px]">Новости</h3> 
+                    <div class="text-[14px]">
+                        <ul>
+                            <li class="mt-3">
+                                <a href="#">Смена домена, <br>
+                                    новый адрес <span class="font-medium">ru-massa.info</span></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-2 text-[#303030] pl-2 sm:pl-6 rounded-lg">
+                    <h3 class="font-medium text-[20px]">Как оформить заказ</h3> 
+                    <div class="leading-[35px]  text-[13px]">
+                        <ul>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-phone-line"></i></p>
+                                <a href="#">7 (567) 439-82-34 </a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-mail-line"></i></p>
+                                <a href="email: rumassa13@gmail.com">E-mail: <span class="font-medium">rumassa13@gmail.com</span></a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email: rumassa13@gmail.com"><span class="font-medium" >@Rumassa_bot </span>  для заказа</a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <div>
+                                    <a href="email: rumassa13@gmail.com"> Telegram <span class="font-medium" >@consultant_rumassa</a> <br>
+                                     <p>   (составление курсов и т.д.)</p>
+                                </div>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email:@Rumassa">Telegram: <span class="font-medium"> @Rumassa</span></a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email: rumassa13@gmail.com"> <span class="font-medium">Новости в телеграм</span></a>
+                            </li>
+                            <li class="flex ">
+                                <p class=" mr-2"><i class="text-[#E4E4E4] ri-telegram-fill"></i></p>
+                                <a href="email: rumassa13@gmail.com"><span class="font-medium">Чат в телеграм</span></a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div><hr class="my-5">
+        <div class="container mx-auto px-[5%] lg:px-[100px] ">
+            <div class="sm:flex text-center justify-between ">
+                <p>ⓒ copywriting 2022</p>
+                <p>Политика конфиденциальности</p>
+            </div>
+        </div>
+        </footer>
+        <!-- footer end -->
+
+    </div>
 </body>
 
 <script src="./projects/plugins/swiper/swiper-bundle.min.js"></script>
